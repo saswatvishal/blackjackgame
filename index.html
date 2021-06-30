@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>BlackJack</title>
+<link rel="stylesheet" href="style.css">
+<body>
+<a href="help.html"><button class="help">HELP?</button></a>
+<div class="wrapper">
+<h2>BlackJack</h2><br>
+<h3><span id="Game-result">Let's Play</span></h3><br>
+<div class="you-row">
+<div id="your-box">
+<h2 id="your-heading">
+You: <span id="game-score">0</span>
+</h2>
+</div>
+<div id="dealer-row">
+<h2 id="dealer-head">
+Dealer: <span id="dealer-score">0</span>
+</h2>
+</div>
+</div>
+<div class="action-row">
+<div class="button">
+<button id="hit-button">
+Hit
+</button>
+<button id="stand-button">
+Stand
+</button>
+<button id="deal-button">
+Deal
+</button>
+</div>
+</div>
+<div class="history-row">
+<table class="table-history">
+<tr>
+<th>Wins</th>
+<th>Losses</th>
+<th>draws</th>
+</tr>
+<tr>
+<td>
+<span id="wins">0</span>
+</td>
+<td>
+<span id="losses">0</span>
+</td>
+<td>
+<span id="draws">0</span>
+</td>
+</tr>
+</table>
+</div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
